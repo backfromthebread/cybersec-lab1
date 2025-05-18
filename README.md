@@ -53,3 +53,6 @@ Foundation for future attacks (login forms, BurpSuite, fuzzing)
 ![{D7F90C6D-BF2E-4A3D-BB69-D79634A067EB}](https://github.com/user-attachments/assets/517224e7-8c6d-41a9-a06b-104f0b897319)
 
 ![{3E272271-9EC3-47D4-AF9C-6381F1466130}](https://github.com/user-attachments/assets/1403a46a-6c1c-4408-85f5-a33dd04083c4)
+
+![{3420D8CA-7C55-4D53-BC8B-231D3A30FEE2}](https://github.com/user-attachments/assets/d7644abe-22f5-445e-8216-d834f2054cea)
+
