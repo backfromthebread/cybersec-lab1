@@ -6,7 +6,9 @@ Goal: Set up a Node.js server on Windows 10 and access it from Kali Linux for sc
 
 🧱 Setup
 Target Machine: Windows 10 (VMware)
+
 Attacker Machine: Kali Linux (VMware)
+
 Networking: NAT (same subnet)
 
 🔧 Tools Used
