@@ -1,53 +1,67 @@
 # cybersec-lab1
-My first custom attack lab: Node.js web server on Windows 10, scanned and accessed from Kali Linux
-💻 Lab 01 – Node.js Web Server Recon
-Date: May 18, 2025
-Goal: Set up a Node.js server on Windows 10 and access it from Kali Linux for scanning and recon.
 
-🧱 Setup
+My first custom attack lab: Node.js web server on Windows 10, scanned and accessed from Kali Linux 💻  
+📘 Lab 01 – Node.js Web Server Recon  
+📅 Date: May 18, 2025  
+🎯 Goal: Set up a Node.js server on Windows 10 and access it from Kali Linux for scanning, interception, and replay.
 
-Target Machine: Windows 10 (VMware)
+---
 
-Attacker Machine: Kali Linux (VMware)
+## 🧱 Setup
 
-Networking: NAT (same subnet)
+**Target Machine:** Windows 10 (VMware)  
+**Attacker Machine:** Kali Linux (VMware)  
+**Networking:** NAT (same subnet)
 
-🔧 Tools Used
-Node.js + Express
+---
 
-Kali Linux
+## 🛠️ Tools Used
 
-Nmap
+- Node.js + Express  
+- Kali Linux  
+- Nmap  
+- Firefox  
+- curl  
+- BurpSuite Community Edition
 
-Firefox
+---
 
-curl
+## 🔥 What I Did
 
+- Installed Node.js on Windows 10  
+- Created a basic Express server on port 3000  
+- Disabled Windows Firewall for lab purposes  
+- Found target IP using `ipconfig`  
+- Accessed the server from Kali via browser + `curl`  
+- Ran `nmap` to detect open port  
+- Verified traffic between machines  
+- Submitted login form from Kali → captured by BurpSuite  
+- Forwarded POST request in Burp  
+- Sent request to **Repeater**, modified credentials, and re-sent  
+- Verified captured data was logged in Node.js console
 
-🔥 What I Did
+---
 
-Installed Node.js on Windows 10
+## 🔍 Interception + Replay (BurpSuite)
 
-Created a basic Express server on port 3000
+- Set Firefox proxy to `127.0.0.1:8080`  
+- Opened BurpSuite → Intercept ON  
+- Visited `http://192.168.113.130:3000/login` on Kali  
+- Filled form: `admin / 123456`  
+- BurpSuite intercepted POST request with raw form data  
+- Forwarded the intercepted request  
+- Sent the request to **Repeater**  
+- Changed form values manually to test different credentials  
+- Replayed and confirmed modified credentials were accepted by backend
 
-Disabled Windows Firewall for lab purposes
+---
 
-Found target IP using ipconfig
+## 🧠 Key Takeaways
 
-Accessed the server from Kali via browser + curl
-
-Ran nmap to detect open port
-
-Verified traffic between machines
-
-
-🧠 Key Takeaways
-
-First successful interaction between attacker and target
-
-Learned how Express serves data and how Kali can access it
-
-Foundation for future attacks (login forms, BurpSuite, fuzzing)
+- First successful interaction between attacker and target  
+- Learned how Express serves data and how Kali can access it  
+- Practiced HTTP interception and replay with BurpSuite  
+- Foundation for future attacks (login forms, brute-force, fuzzing)
 
 
 ![{D7F90C6D-BF2E-4A3D-BB69-D79634A067EB}](https://github.com/user-attachments/assets/517224e7-8c6d-41a9-a06b-104f0b897319)
