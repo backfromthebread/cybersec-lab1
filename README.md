@@ -5,6 +5,7 @@ Date: May 18, 2025
 Goal: Set up a Node.js server on Windows 10 and access it from Kali Linux for scanning and recon.
 
 🧱 Setup
+
 Target Machine: Windows 10 (VMware)
 
 Attacker Machine: Kali Linux (VMware)
@@ -41,6 +42,7 @@ Verified traffic between machines
 
 
 🧠 Key Takeaways
+
 First successful interaction between attacker and target
 
 Learned how Express serves data and how Kali can access it
