@@ -13,24 +13,37 @@ Networking: NAT (same subnet)
 
 🔧 Tools Used
 Node.js + Express
+
 Kali Linux
+
 Nmap
+
 Firefox
+
 curl
 
 
 🔥 What I Did
 Installed Node.js on Windows 10
+
 Created a basic Express server on port 3000
+
 Disabled Windows Firewall for lab purposes
+
 Found target IP using ipconfig
+
 Accessed the server from Kali via browser + curl
+
 Ran nmap to detect open port
+
 Verified traffic between machines
+
 
 🧠 Key Takeaways
 First successful interaction between attacker and target
+
 Learned how Express serves data and how Kali can access it
+
 Foundation for future attacks (login forms, BurpSuite, fuzzing)
 
 
