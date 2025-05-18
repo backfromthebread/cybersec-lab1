@@ -70,3 +70,8 @@ My first custom attack lab: Node.js web server on Windows 10, scanned and access
 
 ![{3420D8CA-7C55-4D53-BC8B-231D3A30FEE2}](https://github.com/user-attachments/assets/d7644abe-22f5-445e-8216-d834f2054cea)
 
+![{6670CC0D-CED6-4198-9054-22F5A793B6EA}](https://github.com/user-attachments/assets/ca920954-b9cc-4d82-b3c5-6e15b96ab4d1)
+
+![{97EACE6D-3ECC-492C-B5B8-40941DC82D9E}](https://github.com/user-attachments/assets/14b5f075-178c-4c40-8cb1-df57347e16c6)
+
+
