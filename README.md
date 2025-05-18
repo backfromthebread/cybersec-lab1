@@ -47,7 +47,7 @@ My first custom attack lab: Node.js web server on Windows 10, scanned and access
 - Set Firefox proxy to `127.0.0.1:8080`  
 - Opened BurpSuite → Intercept ON  
 - Visited `http://192.168.113.130:3000/login` on Kali  
-- Filled form: `admin / 123456`  
+- Filled form: `micheal / jackson`  
 - BurpSuite intercepted POST request with raw form data  
 - Forwarded the intercepted request  
 - Sent the request to **Repeater**  
