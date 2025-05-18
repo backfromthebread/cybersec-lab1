@@ -31,4 +31,6 @@ First successful interaction between attacker and target
 Learned how Express serves data and how Kali can access it
 Foundation for future attacks (login forms, BurpSuite, fuzzing)
 
-![image](https://github.com/user-attachments/assets/78b65af8-4ac7-466a-8055-fdc10a4e7e96)
+
+![{D7F90C6D-BF2E-4A3D-BB69-D79634A067EB}](https://github.com/user-attachments/assets/517224e7-8c6d-41a9-a06b-104f0b897319)
+![{3E272271-9EC3-47D4-AF9C-6381F1466130}](https://github.com/user-attachments/assets/1403a46a-6c1c-4408-85f5-a33dd04083c4)
