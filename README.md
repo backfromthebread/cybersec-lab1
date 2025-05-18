@@ -30,3 +30,5 @@ Verified traffic between machines
 First successful interaction between attacker and target
 Learned how Express serves data and how Kali can access it
 Foundation for future attacks (login forms, BurpSuite, fuzzing)
+
+![image](https://github.com/user-attachments/assets/78b65af8-4ac7-466a-8055-fdc10a4e7e96)
